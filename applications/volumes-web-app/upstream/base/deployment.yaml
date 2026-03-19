@@ -6,12 +6,9 @@ spec:
   replicas: 1
   template:
     spec:
-      securityContext:
-        seccompProfile:
-          type: RuntimeDefault
       containers:
       - name: volumes-web-app
-        image: ghcr.io/kubeflow/kubeflow/volumes-web-app
+        image: ghcr.io/kubeflow/notebooks/volumes-web-app
         ports:
         - containerPort: 5000
         env:
@@ -24,16 +21,9 @@ spec:
         - name: APP_SECURE_COOKIES
           value: $(VWA_APP_SECURE_COOKIES)
         - name: VOLUME_VIEWER_IMAGE
-          value: filebrowser/filebrowser:v2.25.0
+          value: filebrowser/filebrowser:v2.32.0
         - name: METRICS
           value: $(VWA_APP_ENABLE_METRICS)
-        securityContext:
-          runAsNonRoot: true
-          allowPrivilegeEscalation: false
-          runAsUser: 1000
-          capabilities:
-            drop:
-            - ALL
         volumeMounts: 
         - name: viewer-spec
           mountPath: /etc/config/viewer-spec.yaml
