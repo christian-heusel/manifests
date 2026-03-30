@@ -110,3 +110,6 @@ resources:
 #
 # See this for the current status: https://www.kubeflow.org/docs/components/notebooks/notebooks-v2-pre-ga-banner
 # - ../experimental/notebooks-v2
+# Patches the centraldashboard configmap to add the Workspaces menu entry for notebooks-v2
+# components:
+# - ../experimental/notebooks-v2/centraldashboard
