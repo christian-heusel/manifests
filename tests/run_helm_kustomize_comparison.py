@@ -69,7 +69,11 @@ _StrictLoader.add_constructor(
 
 
 KNOWN_DIFFERENCE_ACTIONS = frozenset(
-    ("ignorePodTemplateAnnotations", "compareDataAsYaml", "controllerOwnedWebhookRules")
+    (
+        "ignorePodTemplateAnnotations",
+        "compareDataAsYaml",
+        "controllerOwnedWebhookRules",
+    )
 )
 WEBHOOK_CONFIGURATION_KINDS = {
     "MutatingWebhookConfiguration",
