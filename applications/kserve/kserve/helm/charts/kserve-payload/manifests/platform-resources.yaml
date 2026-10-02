@@ -1236,7 +1236,7 @@ data:
       "defaultNodeGroup": "",
       "jobNamespace": "kserve-kernelcache-jobs",
       "mcvImage": "kserve/kserve-mcv:v0.21.0-minimal",
-      "prefetchImage": "registry.access.redhat.com/ubi9/ubi-minimal:v0.21.0",
+      "prefetchImage": "registry.access.redhat.com/ubi9/ubi-minimal:9.8",
       "abandonedCapturePolicy": "retain",
       "jobTTLSecondsAfterFinished": 600,
       "mcvCaptureReadinessTimeoutSeconds": 600,
