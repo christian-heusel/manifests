@@ -17,6 +17,11 @@ path_to_synchronization_script = {
     "experimental/helm/charts/hub/values.yaml": "scripts/synchronize-hub-manifests.sh",
     "experimental/helm/charts/hub/ci": "scripts/synchronize-hub-manifests.sh",
     "applications/katib/upstream": "scripts/synchronize-katib-manifests.sh",
+    "applications/katib/patches": "scripts/synchronize-katib-manifests.sh",
+    "applications/katib/helm/Chart.yaml": "scripts/synchronize-katib-manifests.sh",
+    "applications/katib/helm/kustomize": "scripts/synchronize-katib-manifests.sh",
+    "applications/katib/helm/manifests": "scripts/synchronize-katib-manifests.sh",
+    "scripts/generate-katib-helm-manifests.py": "scripts/synchronize-katib-manifests.sh",
     # The KServe chart payloads are generated from the whole component, so any
     # change under it regenerates them.
     "applications/kserve/kserve": "scripts/synchronize-kserve-kserve-manifests.sh",
@@ -61,6 +66,7 @@ path_to_synchronization_script = {
         "scripts/synchronize-hub-manifests.sh",
         "scripts/synchronize-dashboard-manifests.sh",
         "scripts/synchronize-istio-manifests.sh",
+        "scripts/synchronize-katib-manifests.sh",
         "scripts/synchronize-kserve-kserve-manifests.sh",
         "scripts/synchronize-kserve-ui-manifests.sh",
         "scripts/synchronize-notebooks-v1-manifests.sh",
