@@ -32,9 +32,10 @@ Install these first, in this order:
    `AuthorizationPolicy` objects, and the namespace it creates is labelled
    `istio-injection: enabled`.
 
-The Workspaces menu entry of the Central Dashboard
-(`applications/workspaces/components/centraldashboard`) is not part of this
-chart.
+The Workspaces menu entries are part of the default Central Dashboard
+configuration (`applications/dashboard`), not of this chart. The Notebooks v1
+variant of the menu lives in
+`applications/notebooks-v1/components/centraldashboard`.
 
 ## Install
 

@@ -20,6 +20,28 @@ data:
                 "type": "item"
             },
             {
+                "icon": "book",
+                "items": [
+                    {
+                        "link": "/jupyter/",
+                        "text": "Notebooks",
+                        "type": "item"
+                    },
+                    {
+                        "link": "/tensorboards/",
+                        "text": "TensorBoards",
+                        "type": "item"
+                    },
+                    {
+                        "link": "/volumes/",
+                        "text": "Volumes",
+                        "type": "item"
+                    }
+                ],
+                "text": "Notebooks v1",
+                "type": "section"
+            },
+            {
                 "icon": "kubeflow:katib",
                 "link": "/katib/",
                 "text": "Katib Experiments",
@@ -106,8 +128,8 @@ data:
         "quickLinks": [
             {
                 "desc": "Kubeflow Notebooks",
-                "link": "/workspaces/",
-                "text": "Open Workspaces"
+                "link": "/jupyter/new",
+                "text": "Create a new Notebook"
             },
             {
                 "desc": "Kubeflow Pipelines",
