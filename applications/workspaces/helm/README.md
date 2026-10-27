@@ -1,12 +1,5 @@
 # Kubeflow Workspaces Helm Chart
 
-> **DANGER: Workspaces (Notebooks v2) is still pre-GA.**
->
-> **DO NOT DEPLOY THIS TO A PRODUCTION CLUSTER.**
->
-> See this for the current status:
-> <https://www.kubeflow.org/docs/components/notebooks/notebooks-v2-pre-ga-banner>
-
 This chart renders the Kubeflow Workspaces Kustomize resources
 (`applications/workspaces/overlays/istio`: controller, backend and frontend)
 with Helm. Kustomize remains the source of truth. `kubeflow/notebooks` publishes
