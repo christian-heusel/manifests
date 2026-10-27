@@ -9,42 +9,15 @@ data:
         "menuLinks": [
             {
                 "icon": "book",
-                "items": [
-                    {
-                        "link": "/jupyter/",
-                        "text": "Notebooks",
-                        "type": "item"
-                    },
-                    {
-                        "link": "/tensorboards/",
-                        "text": "TensorBoards",
-                        "type": "item"
-                    },
-                    {
-                        "link": "/volumes/",
-                        "text": "Volumes",
-                        "type": "item"
-                    }
-                ],
-                "text": "Notebooks v1",
-                "type": "section"
+                "link": "/workspaces/",
+                "text": "Workspaces",
+                "type": "item"
             },
             {
-                "icon": "book",
-                "items": [
-                    {
-                        "link": "/workspaces/",
-                        "text": "Workspaces",
-                        "type": "item"
-                    },
-                    {
-                        "link": "/workspaces/workspacekinds/",
-                        "text": "WorkspaceKinds",
-                        "type": "item"
-                    }
-                ],
-                "text": "Notebooks v2",
-                "type": "section"
+                "icon": "settings",
+                "link": "/workspaces/workspacekinds/",
+                "text": "Workspaces Admin",
+                "type": "item"
             },
             {
                 "icon": "kubeflow:katib",
@@ -133,8 +106,8 @@ data:
         "quickLinks": [
             {
                 "desc": "Kubeflow Notebooks",
-                "link": "/jupyter/new",
-                "text": "Create a new Notebook"
+                "link": "/workspaces/",
+                "text": "Open Workspaces"
             },
             {
                 "desc": "Kubeflow Pipelines",
