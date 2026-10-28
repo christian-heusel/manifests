@@ -19,7 +19,7 @@ data:
             {
                 "icon": "settings",
                 "link": "/workspaces/workspacekinds/",
-                "text": "Workspaces Admin",
+                "text": "Workspaces Administrator",
                 "type": "item"
             },
             {
