@@ -411,7 +411,7 @@ This installs the Notebook Controller, Jupyter Web Application, PVC Viewer Contr
 ./tests/workspaces_install.sh
 ```
 
-This installs the Workspaces controller, backend and frontend, which provide the Workspaces and Workspaces Admin pages of the Central Dashboard.
+This installs the Workspaces controller, backend and frontend, which provide the Workspaces and Workspaces Administrator pages of the Central Dashboard.
 
 #### Trainer
 
