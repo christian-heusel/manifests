@@ -401,7 +401,7 @@ For detailed pipeline compilation instructions, please refer to the [Kubeflow Pi
 ./tests/notebooks_install.sh
 ```
 
-Notebooks 1.0 is disabled by default in `example/kustomization.yaml`. To enable it, uncomment `../applications/notebooks-v1/overlays/istio` as well as the `components` list with `../applications/notebooks-v1/components/centraldashboard`, which adds the Notebooks v1 section to the Central Dashboard menu.
+Notebooks 1.0 is disabled by default in `example/kustomization.yaml` and will be removed in Kubeflow 27.03. To enable it, uncomment `../applications/notebooks-v1/overlays/istio` as well as the `components` list with `../applications/notebooks-v1/components/centraldashboard`, which adds the Notebooks v1 section to the Central Dashboard menu.
 
 This installs the Notebook Controller, Jupyter Web Application, PVC Viewer Controller, Volumes Web Application, Tensorboard Controller, and Tensorboards Web Application.
 
